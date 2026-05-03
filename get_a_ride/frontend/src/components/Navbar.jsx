@@ -1,8 +1,8 @@
 function Navbar() {
     return (
-    <div className="navbar">
+    <nav className="navbar">
         <h2>Get a ride</h2>
-    </div>
+    </nav>
     );
 }
 
