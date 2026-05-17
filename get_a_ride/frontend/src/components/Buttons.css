@@ -1,0 +1,7 @@
+.app-selector {
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+    margin: 0 0% 0 35%;
+}
+

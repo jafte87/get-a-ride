@@ -1,0 +1,20 @@
+
+.navbar {
+    background-color: rgba(55, 189, 137, 0.76);
+    border-style: solid;
+    border-color: aliceblue;
+    border-radius: 6px;
+    height: 100px;
+    color: white;
+    margin: 0 0 5% 0;
+}
+
+.navbar p {
+    font-size: 60%;
+    margin: 1% 2% 0 2% ;
+    color: rgb(59, 59, 59);
+}
+
+.navbar h2 {
+    margin: 2% 0 0 0 ;
+}
