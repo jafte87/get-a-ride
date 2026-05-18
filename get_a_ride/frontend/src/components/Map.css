@@ -1,0 +1,7 @@
+.map-container {
+    width: 20%;
+    margin: 0 0 7% 15%;
+    border-style: solid;
+    border-color: aliceblue;
+    border-radius: 4px;
+}

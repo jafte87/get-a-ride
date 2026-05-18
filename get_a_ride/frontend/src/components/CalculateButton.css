@@ -1,0 +1,11 @@
+.cal-btn {
+    border-style: solid;
+    width: 10%;
+    background-color: rgba(55, 189, 137, 0.76);
+    border-color: aliceblue;
+    border-radius: 4px;
+    height: 34px;
+    margin-bottom: 30px;
+    font-size: 80%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

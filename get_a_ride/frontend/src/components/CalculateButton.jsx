@@ -1,6 +1,7 @@
 import CalculatePrice from "../utils/CalculatePrice";
 import CalculateDistance from "../utils/CalculateDistance";
 import { useState } from "react";
+import './CalculateButton.css'
 
 function CalculateButton({pointA, pointB, selectedApp}) {
     const [result, setResult] = useState(null);
