@@ -24,7 +24,6 @@ function Map({pointA, pointB, setPointA, setPointB}) {
         <MapContainer
             center={[30.0444, 31.2357]}
             zoom={13}
-            style={{ height: '400px', width: '70%' }}
         className='map-container'>
             <TileLayer
                 url={"https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"}

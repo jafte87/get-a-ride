@@ -2,6 +2,9 @@ import CalculatePrice from "../utils/CalculatePrice";
 import CalculateDistance from "../utils/CalculateDistance";
 import { useState } from "react";
 import './CalculateButton.css'
+import { MapPin } from 'lucide-react';
+import { CircleDollarSign } from 'lucide-react';
+import { Car } from 'lucide-react';
 
 function CalculateButton({pointA, pointB, selectedApp}) {
     const [result, setResult] = useState(null);
@@ -25,8 +28,9 @@ function CalculateButton({pointA, pointB, selectedApp}) {
             </button>
             {result && (
                 <div className="result">
-                    <p>Distance: {result.distance.toFixed(2)} km</p>
-                    <p>Price: {result.price.toFixed(2)} EGP</p>
+                    <p>You ride with {selectedApp} cost <Car /></p>
+                    <p>Price {result.price.toFixed(2)} EGP <CircleDollarSign /></p>
+                    <p>Distance {result.distance.toFixed(2)} km <MapPin /></p>
                 </div>
             )}
         </div>

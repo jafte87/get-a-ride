@@ -1,16 +1,35 @@
-# React + Vite
+# 🚕 Ride Price Calculator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A web app to compare ride prices between Uber, inDrive, and DiDi in Egypt.
 
-Currently, two official plugins are available:
+## 🛠️ Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- React.js
+- Leaflet / React-Leaflet
+- CSS
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Select two points on the map
+- Calculate distance between them
+- Compare prices across 3 apps
+- Responsive design
 
-## Expanding the ESLint configuration
+## 🚀 Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Prerequisites
+- Node.js
+- npm
+
+### Installation
+
+```bash
+git clone https://github.com/jafte87/your-repo-name
+cd frontend
+npm install
+npm run dev
+```
+
+## 📸 Screenshots
+
+![Home Page](./home.png)

@@ -1,4 +1,4 @@
-.cal-btn {
+.ref {
     border-style: solid;
     width: 10%;
     background-color: rgba(55, 189, 137, 0.76);
@@ -8,32 +8,22 @@
     margin-bottom: 30px;
     font-size: 80%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    transition: all 0.5s ease;
+    text-align: center;
 }
 
-.cal-btn:hover {
+.ref:hover {
     transition: all 0.3s ease;
     background-color: rgb(19, 107, 78);
     transform: scale(1.05);
 }
-.result {
-    font-size: 150%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: aliceblue;
-}
-.result p {
-    margin-top: 1%;
-    margin-bottom: 2%;
-}
 
-@media(max-width:480px) {
-    .cal-btn {
+@media(max-width: 480px) {
+    .ref {
         width: 30%;
     }
 }
-
-@media(max-width:768px){
-    .cal-btn {
+@media(max-width:768px) {
+    .ref {
         width: 30%;
     }
 }

@@ -1,7 +1,7 @@
 const AppRates = {
-    uber: { baseFare: 20, perKm: 17},
-    didi: { baseFare: 18.75, perKm: 16},
-    indrive: { baseFare: 19, perKm: 15}
+    Uber: { baseFare: 20, perKm: 17},
+    Didi: { baseFare: 18.75, perKm: 16},
+    Indrive: { baseFare: 19, perKm: 15}
 };
 
 function CalculatePrice(app, distance) {

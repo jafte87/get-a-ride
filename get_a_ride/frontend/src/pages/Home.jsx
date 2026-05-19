@@ -3,6 +3,7 @@ import Buttons from "../components/Buttons";
 import Navbar from "../components/Navbar";
 import Map from "../components/Map";
 import CalculateButton from "../components/CalculateButton";
+import RefreshButton from "../components/RefreshButton";
 
 
 function Home() {
@@ -14,6 +15,7 @@ function Home() {
         <div>
             <Navbar />
             <Buttons selectedApp = {selectedApp} setSelectedApp = {setSelectedApp}/>
+            <RefreshButton pointA = {pointA} pointB = {pointB} />
             <Map pointA = {pointA} pointB = {pointB} setPointA = {setPointA} setPointB = {setPointB}/>
             <CalculateButton pointA = {pointA} pointB = {pointB} selectedApp = {selectedApp}/>
         </div>

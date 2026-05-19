@@ -2,12 +2,19 @@
     display: flex;
     justify-content: space-between;
     width: 30%;
-    margin: 0 0 7% 35%;
+    margin: 0 0 5% 35%;
 }
 
 .uber-btn img {
     width: 60%;
     padding-top: 2%;
+}
+
+.uber-btn:hover {
+    
+    transition: all 0.3s ease;
+    background-color: rgb(19, 107, 78);
+    transform: scale(1.05);
 }
 
 .uber-btn {
@@ -27,6 +34,13 @@
     width: 120%;
 }
 
+.indrive-btn:hover {
+    
+    transition: all 0.3s ease;
+    background-color: rgb(19, 107, 78);
+    transform: scale(1.05);
+}
+
 .indrive-btn img {
     width: 60%;
     padding-top: 2%;
@@ -40,7 +54,28 @@
     width: 120%;
 }
 
+.didi-btn:hover {
+    
+    transition: all 0.3s ease;
+    background-color: rgb(19, 107, 78);
+    transform: scale(1.05);
+}
+
 .didi-btn img {
     width: 40%;
     padding-top: 2%;
+}
+
+@media(max-width:480px) {
+    .app-selector {
+        width: 70%;
+        margin: 0 0 12% 15%;
+    }
+}
+
+@media(max-width:768px) {
+    .app-selector {
+        width: 70%;
+        margin: 0 0 12% 15%;
+    }
 }
